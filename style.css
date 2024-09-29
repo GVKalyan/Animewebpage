@@ -1,0 +1,105 @@
+.image {
+    background-image: url(images/new.png);
+    width: auto;
+    height: auto;
+}
+
+.color{
+    color: red;
+}
+
+span {
+    color: red;
+}
+
+.img-border {
+    margin: 20px 0px 20px 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                                            /* contact-page */
+.bg-img-contact {
+    background-image: url(images/bg-contact1.png);
+    background-size: cover;
+}
+
+                                             /* Signin-page */
+.bg-img-login {
+    background-image: url(images/login-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+/* .input{
+    height:40px;
+    width:350px;
+} */
+
+
+                                             /* anime1-page */
+.bg-img-anime {
+    background-image: url(images/animebg.png);
+    background-size: cover;
+
+.border{
+    border-color: red solid 2px ;
+}
+
+}
+
+.height {
+    height: 70vh;
+}
+
+
+.effect {
+    cursor: pointer;
+    box-shadow: 0 0 5px red,
+        0 0 25px red;
+}
+
+.effect:hover {
+    box-shadow: 0 0 5px red,
+        0 0 25px red, 0 0 50px red,
+        0 0 100px red, 0 0 200px red;
+}
+
+.position {
+    position: sticky;
+    top: 0rem;
+}
+
+                                               /* manga-page */
+.effect1 {
+    cursor: pointer;
+    box-shadow: 0 0 5px black,
+        0 0 25px black;
+}
+
+.effect1:hover {
+   height:305px;    
+   width:305px;
+}
+#main{
+    overflow: auto;
+    width:90%;
+    height: 650px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.386);
+}
+.login{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+                      /* character-page */
+.style{
+    font-family:Brush Script MT;
+    font-size:1.875em;
+}                      
